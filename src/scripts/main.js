@@ -7,7 +7,7 @@ buttons.forEach((button) => button.addEventListener('click', clickHandler));
 function clickHandler() {
   const action = event.target.className.split(' ')[0];
 
-  actionHandler(action, event);
+  actionHandler(action);
 }
 
 function actionHandler(action) {
